@@ -1,30 +1,33 @@
-# Vehicle Comparison Web Application 🚗📊
+# Explorador de Vehículos en Venta
 
-## Descripción del Proyecto
+Esta aplicación web fue desarrollada para ofrecer visualizaciones interactivas que ayudan tanto a compradores como a vendedores de autos usados a tomar decisiones informadas.
 
-Este proyecto tiene como objetivo desarrollar una aplicación web interactiva que permita analizar, comparar y visualizar datos de vehículos usados listados para su venta en EE.UU. La aplicación está pensada tanto para compradores como para vendedores, proporcionando herramientas que les ayuden a tomar decisiones más informadas basadas en los datos.
+---
 
-Se utilizó un enfoque de análisis exploratorio de datos (EDA) para identificar patrones, relaciones clave y comportamientos relevantes en variables como precio, kilometraje, condición del vehículo, tipo, color y transmisión.
+## Objetivo de la aplicación
 
-## Objetivos de la App
+Ofrecer una herramienta interactiva que permita:
 
-**Para compradores**  
-- Explorar modelos con menor kilometraje.
-- Analizar la relación entre precio y condición del vehículo.
-- Estimar el valor aproximado según características seleccionadas.
+- Visualizar tendencias clave en los datos de vehículos usados listados para la venta.
+- Explorar relaciones entre características como precio, kilometraje, tipo de vehículo y condición.
+- Brindar orientación específica según si el usuario desea **comprar** o **vender** un automóvil.
 
-**Para vendedores**  
-- Estimar el tiempo promedio de venta según tipo de vehículo.
-- Comprender cómo factores como el kilometraje, condición o tipo afectan el valor de mercado.
-- Evaluar el impacto de la pintura o transmisión sobre la demanda.
+---
 
-## Tecnologías Utilizadas
+## Funcionalidades principales
 
-- Python
-- pandas
-- plotly.express
-- Streamlit
-- Jupyter Notebook
+### Funciones comunes para todos los usuarios:
+- Histograma de precios
+- Dispersión de precios vs. kilometraje
+
+### Para compradores:
+- Boxplot de kilometraje por tipo de vehículo
+- Relación entre precio y estado de conservación
+
+### Para vendedores:
+- Días listados por tipo de vehículo
+
+---
 
 ## Estructura del Repositorio
 
@@ -36,8 +39,17 @@ vehicle_comparison_web_application/
 ├── README.md            # Este archivo
 ├── .streamlit/
 │   └── config.toml      # Configuración para Render
-└── notebooks/
-    └── EDA.ipynb        # Análisis exploratorio de datos
+└── EDA.ipynb        # Análisis exploratorio de datos
+
+---
+
+## Requisitos
+
+- Python 3.x
+- Streamlit
+- Plotly Express
+- Pandas
+
 ```
 
 ## Cómo ejecutar el proyecto localmente
@@ -58,7 +70,7 @@ vehicle_comparison_web_application/
 
 ## Despliegue
 
-La aplicación está desplegada en Render y puede ser accedida desde: [🔗 Enlace a la App](https://<tu-nombre-de-app>.onrender.com)
+La app también puede desplegarse en Render siguiendo la configuración incluida en ***.streamlit/config.toml.***
 
 ---
 
