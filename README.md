@@ -68,9 +68,8 @@ vehicle_comparison_web_application/
    streamlit run app.py
    ```
 
-## Despliegue
-
-La app también puede desplegarse en Render siguiendo la configuración incluida en ***.streamlit/config.toml.***
+## Acceso a la Aplicación Web
+Puedes acceder a la versión desplegada de esta aplicación en el siguiente enlace: https://vehicle-comparison-web-application.onrender.com
 
 ---
 
